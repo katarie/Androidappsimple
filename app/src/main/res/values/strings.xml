@@ -5,4 +5,6 @@
     <string name="edittext1">first name</string>
     <string name="edittext2">last name</string>
     <string name="val">Submite</string>
+    <string name="refut">You have to fill in the name and first name !</string>
+    <string name="Congratulations">"Congratulations"</string>
 </resources>
