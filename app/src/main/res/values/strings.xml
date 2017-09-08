@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppSimple</string>
+    <string name="title">Welcome to the WCS !</string>
+    <string name="checkbos">Ouis je souhaite de devenir un wilder.</string>
+    <string name="edittext1">first name</string>
+    <string name="edittext2">last name</string>
+    <string name="val">Submite</string>
 </resources>
