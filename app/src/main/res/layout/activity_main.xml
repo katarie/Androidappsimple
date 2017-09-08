@@ -11,20 +11,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/title"
-        />
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"/>
 
     <CheckBox
         android:id="@+id/checkbox"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/checkbos"/>
+        android:text="@string/checkbos"
+        android:textSize="18dp"
+        android:layout_gravity="center"/>
 
     <EditText
         android:id="@+id/firstname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:hint="@string/edittext1"/>
+        android:hint="@string/edittext1"
+        android:layout_marginBottom="15dp"/>
 
     <EditText
         android:id="@+id/lastname"
@@ -38,13 +44,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:enabled="false"
-        android:text="@string/val"/>
+        android:text="@string/val"
+        android:textSize="20dp"/>
 
     <TextView
         android:id="@+id/Congratulations"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        />
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
 
 </LinearLayout>
